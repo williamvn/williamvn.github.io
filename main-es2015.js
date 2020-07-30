@@ -376,7 +376,7 @@ class ErrorComponent {
     ngOnInit() {
     }
     redirectToHome() {
-        this.router.navigate(["home"]);
+        this.router.navigate(["users"]);
     }
 }
 ErrorComponent.ɵfac = function ErrorComponent_Factory(t) { return new (t || ErrorComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
@@ -1877,7 +1877,7 @@ class NotFoundComponent {
     ngOnInit() {
     }
     redirectToHome() {
-        this.router.navigate(["home"]);
+        this.router.navigate(["users"]);
     }
 }
 NotFoundComponent.ɵfac = function NotFoundComponent_Factory(t) { return new (t || NotFoundComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
@@ -2342,7 +2342,7 @@ class TopBarComponent {
     }
 }
 TopBarComponent.ɵfac = function TopBarComponent_Factory(t) { return new (t || TopBarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_cdk_layout__WEBPACK_IMPORTED_MODULE_1__["BreakpointObserver"])); };
-TopBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TopBarComponent, selectors: [["app-top-bar"]], decls: 32, vars: 12, consts: [[1, "sidenav-container"], ["fixedInViewport", "", 1, "sidenav", 3, "mode"], ["drawer", ""], ["mat-list-item", "", "routerLink", "/users"], ["mat-list-item", "", "routerLink", "/user/new"], ["mat-list-item", "", "routerLink", "/login"], ["color", "primary", 1, "navbar"], [1, "nav-title"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click", 4, "ngIf"], ["class", "nav-list", 4, "ngIf"], [1, "full-page"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click"], ["aria-label", "Side nav toggle icon"], [1, "nav-list"], ["mat-icon-button", "", "aria-label", "Example icon-button with menu icon", 1, "example-icon", 3, "click"]], template: function TopBarComponent_Template(rf, ctx) { if (rf & 1) {
+TopBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TopBarComponent, selectors: [["app-top-bar"]], decls: 32, vars: 12, consts: [[1, "sidenav-container"], ["fixedInViewport", "", 1, "sidenav", 3, "mode"], ["drawer", ""], ["mat-list-item", "", "routerLink", "/users"], ["mat-list-item", "", "routerLink", "/user/new"], ["mat-list-item", "", "routerLink", ""], ["color", "primary", 1, "navbar"], [1, "nav-title"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click", 4, "ngIf"], ["class", "nav-list", 4, "ngIf"], [1, "full-page"], ["type", "button", "aria-label", "Toggle sidenav", "mat-icon-button", "", 3, "click"], ["aria-label", "Side nav toggle icon"], [1, "nav-list"], ["mat-icon-button", "", "aria-label", "Example icon-button with menu icon", 1, "example-icon", 3, "click"]], template: function TopBarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-sidenav-container", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-sidenav", 1, 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "async");
